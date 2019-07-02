@@ -1,0 +1,14 @@
+Vi tänker oss att strålningen från solen vid jorden är parallell, vilket är rimligt då jordens radie är betydligt mindre än jordens omloppsradie, kan vi beskriva totala strålningen jorden absorberar som
+\[
+P_{\textrm{in}} = I_0(1-a)\pi R_e^2,
+\]
+där $I_0$ är strålningstätheten, $R_e$ är jordens aradie, och $a$ är jordens albedo. Albedo är ett mått på hur effektiv en planet är på att ta upp strålning, $a = 0$ motsvarar en ideal svartkropp och $a = 1$ motsvarar ideal reflektion av all strålning.
+\par Stefan–Boltzmann lag ger strålning från en kropp med yta $A$, med hjälp av den kan vi beskriva strålningen från jorden som
+\[
+P_{\textrm{out}} = A\epsilon \sigma T^4 = 4 \pi R_e^2 \epsilon \sigma T^4.
+\]
+Där $\epsilon$ är jordens emissionsgrad, och $\sigma$ är boltzmanns konstant. Vattens emmisionsgrad är $0.96$ så en inte helt orimlig uppskattning är att jordens emmisionsgrad är 1. Detta system kommer sträva efter jämvikt och vi ta fram en formel för $T$ genom att sätta $P_{\textrm{in}} = P_{\textrm{out}}$.
+\[
+T = \left (\frac{I_0 (1-a)}{4\sigma} \right )^{\frac{1}{4}}
+\]
+$I_0$ är inte något vi kan påverka är varierar cykliskt med någon procent\citep{fcg}. 
